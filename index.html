@@ -5,57 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TheSapFashion</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="TheSapFashion Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="logo.png" alt="TheSapFashion Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <section id="home" class="hero">
-        <h1>Welcome to TheSapFashion</h1>
-        <p>Discover the latest trends in fashion.</p>
-        <a href="#shop" class="btn">Shop Now</a>
+        <div class="container">
+            <h1>Discover Your Style</h1>
+            <p>Elevate your fashion with the latest trends.</p>
+            <a href="#shop" class="btn">Explore Collection</a>
+        </div>
     </section>
     
     <section id="shop" class="shop">
-        <h2>Trending Collections</h2>
-        <div class="products">
-            <div class="product">
-                <img src="dress1.jpg" alt="Fashion Item">
-                <p>Elegant Dress</p>
-            </div>
-            <div class="product">
-                <img src="shoes1.jpg" alt="Fashion Item">
-                <p>Luxury Shoes</p>
+        <div class="container">
+            <h2>Trending Collections</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="dress1.jpg" alt="Elegant Dress">
+                    <p>Elegant Dress</p>
+                </div>
+                <div class="product">
+                    <img src="shoes1.jpg" alt="Luxury Shoes">
+                    <p>Luxury Shoes</p>
+                </div>
+                <div class="product">
+                    <img src="bag1.jpg" alt="Designer Bag">
+                    <p>Designer Bag</p>
+                </div>
             </div>
         </div>
     </section>
     
     <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>TheSapFashion brings you the best in modern, stylish, and trendy fashion.</p>
+        <div class="container">
+            <h2>About Us</h2>
+            <p>TheSapFashion is your go-to brand for premium fashion. We bring you elegant styles with a modern touch.</p>
+        </div>
     </section>
     
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
     
     <footer>
-        <p>&copy; 2025 TheSapFashion. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 TheSapFashion. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
